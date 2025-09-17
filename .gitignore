@@ -1,0 +1,27 @@
+# Python & data
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.env
+.env.*
+
+# Project data & experiments
+data/
+exp/
+wandb/
+mlruns/
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+data/raw/
+data/processed/features/
+data/processed/features_proc/
+data/processed/splits/
+data/processed/labels/labels_v1.csv  # optional; keep if you want
+notebooks/artifacts/
+results/
+exp/
+EOF
